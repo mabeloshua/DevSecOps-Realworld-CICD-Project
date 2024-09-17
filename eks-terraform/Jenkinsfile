@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('eks deployment repo'){
             steps{
-                git branch: 'DevSecOps-Realworld-CICD-Project', url: 'https://github.com/mabeloshua/DevSecOps-Realworld-CICD-Project.git'
+                git branch: 'main', url: 'https://github.com/mabeloshua/DevSecOps-Realworld-CICD-Project.git'
             }
         }
         stage('Terraform Init') {

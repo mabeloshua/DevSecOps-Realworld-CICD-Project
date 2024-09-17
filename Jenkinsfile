@@ -20,7 +20,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'DevSecOps-Realworld-CICD-Project', url: 'https://github.com/mabeloshua/DevSecOps-Realworld-CICD-Project.git'
+                git branch: 'main', url: 'https://github.com/mabeloshua/DevSecOps-Realworld-CICD-Project.git'
             }
         }
         stage('Install Dependencies') {
